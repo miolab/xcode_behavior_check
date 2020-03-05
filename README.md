@@ -1,10 +1,14 @@
 # Xcode behavior check
 
+iOSアプリ開発関係メモ。
+
 - Xcode周りの動作確認チェック用
 
   - Git連携 etc.
 
-- Swiftチート
+- [Swiftチート](https://github.com/miolab/xcode_behavior_check/blob/master/MyPlaygroundSwift.playground/Contents.swift)（順次アップデート）
+
+---
 
 ## 💻開発環境
 
