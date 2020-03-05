@@ -1,7 +1,15 @@
-# xcode_behavior_check
+# Xcode behavior check
 
-Xcodeの動作確認リポジトリ。
+- Xcode周りの動作確認チェック用
 
-## 開発環境
-- Xcode (10.3)
-- Swift (5.0.1)
+  - Git連携 etc.
+
+- Swiftチート
+
+## 💻開発環境
+
+| |ツール|バージョン|
+|:--:|:--|:--|
+| IDE | Xcode | 10.3 |
+| 言語 | Swift | 5.0.1 |
+| ターゲット | iPhone | Xr |
