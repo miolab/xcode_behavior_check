@@ -1,13 +1,17 @@
 // Playground behavior check
+
+// Run(ctr + sft + return) ...ok
 import UIKit
 
-var str = "Hello, playground"   // String
-var str_im = "Hello, im."
-var number = 1 + 2              // int
+var str = "Hello, playground"
+var str_im:String = "Hello, im."
 
-let num = 10 + 11
+let number:Int = 1 + 2
 
+let num:Double = 10.1 + 11.2
 
+var hasKey:Bool = true
+hasKey
 
 
 
