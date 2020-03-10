@@ -21,14 +21,34 @@ iOSアプリ開発関係メモ。
 
 ---
 
-### 💻CocoaPods インストール
+### 💻CocoaPods 関連
 
-```
-$ sudo gem update --system
+- ライブラリ管理ツール
 
-$ sudo gem install -n /usr/local/bin cocoapods
+- インストール・ライブラリ導入
+  ```
+  $ sudo gem update --system
 
-$ pod --version
+  $ sudo gem install -n /usr/local/bin cocoapods
 
-$ pod setup
-```
+  $ pod --version
+
+  $ pod setup
+  ```
+
+  - 対象ディレクトリに`cd`して、`pod init`実行
+
+    - `Podfile`が生成される
+    - こちらにimportしたいライブラリを書く
+
+  - `pod install`でライブラリを取ってくる
+  - 2回目以降、追加や削除をするときは`pod update`
+
+---
+
+### 💻Xcode ショートカット
+
+|  | コマンド |
+|:--|:--|
+| シミュレータのスクショ | ⌘ + s |
+| XCTest実行 | ⌘ + r |
